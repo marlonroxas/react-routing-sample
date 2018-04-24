@@ -1,0 +1,66 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  white-space: normal;
+  line-height: normal;
+
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.App-nav {
+  font-size: large;
+  text-align: left;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.card-box{
+  padding: 5px;
+}
+.card-view{
+  padding: 0;
+  min-height: 200px;
+  background: #e2e2e2e2;
+}
+.card-info{
+  text-align: left;
+  padding: 15px 0;
+}
+.card-thumb{
+  padding-top: 15px;
+}
+.card-name{
+  font-size: 16px;
+  font-weight: 500;
+}
+.card-bio{
+  font-weight: 100;
+  font-style: italic;
+}
